@@ -1,13 +1,12 @@
 "use strict"
 const { segment } = require("oicq")
-const { bot } = require("./index")
+const { bot } = require("../index")
 
 // hello world
 bot.on("message", function (msg) {
 	if (msg.raw_message === "hello")
 		msg.reply("hello world", true) //改为false则不会引用
 })
-
 // 撤回和发送群消息
 bot.on("message.group", function (msg) {
 	if (msg.raw_message === "dice") {
