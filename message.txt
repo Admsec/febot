@@ -168,3 +168,39 @@ PrivateMessage {
   reply: [Function (anonymous)],
   self_id: 1447007223
 }
+
+语音消息：
+PrivateMessage {
+  post_type: 'message',
+  message_id: 'Zgf6bAAA/nB7wknNYtv6fAA=',
+  user_id: 1711798892,
+  time: 1658583676,
+  seq: 65136,
+  rand: 2076330445,
+  font: 'unknown',
+  message: [
+    {
+      type: 'record',
+      file: 'protobuf://CAQQ7PSfsAYaJDE4UE9KaGhZVXBTMVdQU3Q5UzQ1aFd0Q0hZYWNLVFFobV81NSIQd4lNFJHemSuvMO5NR9ZfFCokNzc4OTREMTQ5MURFOTkyQkFGMzBFRTRENDdENjVGMTQuYW1yOk4GCAAEAAAAAQkABAAAAAECAAEBBAAEe8JJzQcABAAAAAAKACoIABIiiAEAmgEceAD4AQDIAgCqAxEIDRINDbKtgG5cPEg3WtVC/ygAOAA=',
+      url: '',
+      md5: '77894d1491de992baf30ee4d47d65f14',
+      size: 0,
+      seconds: 0
+    }
+  ],
+  raw_message: '[语音]',
+  message_type: 'private',
+  sub_type: 'friend',
+  sender: {
+    user_id: 1711798892,
+    nickname: '江城',
+    group_id: undefined,
+    discuss_id: undefined
+  },
+  from_id: 1711798892,
+  to_id: 1447007223,
+  auto_reply: false,
+  friend: Friend {},
+  reply: [Function (anonymous)],
+  self_id: 1447007223
+}

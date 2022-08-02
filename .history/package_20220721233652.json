@@ -1,0 +1,17 @@
+{
+  "name": "febot",
+  "version": "1.0.0",
+  "description": "自用型oicq机器人",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "oicq": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.6.1"
+  }
+}

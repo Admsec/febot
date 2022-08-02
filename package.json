@@ -1,7 +1,7 @@
 {
-  "name": "oicq-template",
+  "name": "febot",
   "version": "1.0.0",
-  "description": "",
+  "description": "自用型oicq机器人",
   "main": "index.js",
   "scripts": {
     "dev": "node ./index.js"
@@ -9,7 +9,10 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "oicq": "^2.2.0"
+    "node-cron": "^3.0.1",
+    "node-schedule": "^2.1.0",
+    "oicq": "^2.2.0",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@types/node": "^16.6.1"
