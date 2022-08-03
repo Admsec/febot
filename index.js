@@ -2,14 +2,14 @@
 const { createClient } = require("oicq")
 const fs = require('fs')
 
-const bot = createClient(1447007223, {platform : 2})
-const masters = [1711798892]
+const bot = createClient(123456, {platform : 2})
+const masters = [123456]
 
 // 密码登录
 bot.on("system.login.slider", function (e) {
 		console.log("输入ticket：")
 		process.stdin.once("data", ticket => this.submitSlider(String(ticket).trim()))
-		}).login("5201314wjf")
+		}).login("")
 
 bot.once("system.online", function () {
 	for (let master of masters) {
